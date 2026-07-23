@@ -1,0 +1,15 @@
+[project]
+name = "start-new"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.3.14",
+    "langchain-chroma>=1.1.0",
+    "langchain-google-genai>=4.3.1",
+    "langchain-groq>=1.1.3",
+    "langchain-text-splitters>=1.1.2",
+    "pypdf>=6.14.2",
+    "python-dotenv>=1.2.2",
+]
