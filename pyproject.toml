@@ -13,3 +13,7 @@ dependencies = [
     "pypdf>=6.14.2",
     "python-dotenv>=1.2.2",
 ]
+
+[tool.pyright]
+extraPaths = ["sql_agent", "semantic_search"]
+
